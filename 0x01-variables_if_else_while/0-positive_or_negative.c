@@ -4,20 +4,19 @@
 
 /* more headers goes there */
 /**
- *main - print is positive, is negative, is zero
+ *main - print number
  *
- * Description: main function is being used
- *
- *Return: 0
+ * Description: print positive or negative
+ * Return: 0
  * \
-
 /* betty style doc for function main goes there */
 
 int main(void)
-
 {
 
 		int n;
+
+
 
 		srand(time(0));
 
@@ -28,7 +27,7 @@ int main(void)
 		else if (n == 0)
 			printf("%d is zero\n", n);
 		else if (n < 0)
-			printf("%d is negative", n);
+			printf("%d is negative\n", n);
 
 		/* your code goes there */
 
