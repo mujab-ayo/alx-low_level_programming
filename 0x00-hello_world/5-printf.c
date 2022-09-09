@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print a sentence
+ * main - print
  *
  * description: use printf
  *
