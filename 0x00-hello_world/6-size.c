@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - size of variables
+ * main - Entry point 
  *
- * description: print size of variables
  *
- * return: 0
+ * Return: 0
  */
 
 int main(void)
