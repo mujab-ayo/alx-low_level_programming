@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - print hexadecimal
  *
@@ -13,5 +14,6 @@ int main(void)
 		putchar(num);
 	for (ch = 'a'; ch <= 'f'; ch++)
 		putchar(ch);
+	putchar('\n');
 	return (0);
 }
