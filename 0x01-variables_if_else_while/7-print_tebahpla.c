@@ -3,7 +3,7 @@
  * main - print alphabet
  *
  * Description: print alphabet a - z in reverse
- * Result: 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
