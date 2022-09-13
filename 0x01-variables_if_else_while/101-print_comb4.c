@@ -21,10 +21,10 @@ int main(void)
 					putchar(j);
 					putchar(k);
 
-					if (i != '8' || (i == '8' && j != '8') && k != '9')
+					if ((i != '8' || (i == '8' && j != '8')) && k != '9')
 					{
 						putchar(',');
-						putchar(' ')
+						putchar(' ');
 					}
 				}
 			}
