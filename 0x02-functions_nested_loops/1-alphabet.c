@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * main - print alphabets
+ *print_alphabet - print character to the stout
  *
  * Description: print alphabet in lower case
- * Return: 0
+ * followed by a new line
+ * Return: void
  */
 void print_alphabet(void)
 {
