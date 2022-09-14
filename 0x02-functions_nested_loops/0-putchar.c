@@ -2,8 +2,8 @@
 /**
  * main - Entry point
  *
- * Description: print putchar
- * Result: 0
+ * Description: print putchar as output
+ * Return: 0
  */
 int main(void)
 {
