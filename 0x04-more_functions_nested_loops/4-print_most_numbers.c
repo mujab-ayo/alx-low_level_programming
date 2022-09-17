@@ -1,0 +1,22 @@
+#include "main.h"
+/**
+ * print_most_numbers - exclude two numbers
+ *
+ * Description: print number 0 - 9
+ * excluding 2 and 4
+ * Return: void
+ */
+void print_most_numbers(void)
+{
+	int i;
+
+	i = 0;
+	while (i <= 9)
+	{
+		if (i == 2 || 1 == 4)
+			continue;
+		_putchar(i + '0');
+		i++;
+	}
+	_putchar('\n');
+}
