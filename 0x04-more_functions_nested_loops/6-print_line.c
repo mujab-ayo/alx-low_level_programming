@@ -2,14 +2,14 @@
 /**
  * print_line - print line
  *
- * Description: draw a straight line with _
- * Return: 0
+ * @n: is an integer
+ * Description: draw a straight line with _ Return: 0
  */
 void print_line(int n)
 {
 	int i;
 
-	i= 0;
+	i = 0;
 	while (i < n && n > 0)
 	{
 		_putchar('_');
