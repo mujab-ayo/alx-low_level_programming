@@ -1,8 +1,8 @@
-i#include "main.h"
+#include "main.h"
 /**
- * *cap_string - capitalize string
+ * *cap_string - string capitalization
  *
- * @s string to be capitalize
+ * @s: string to be capitalize
  * Description: capitalize first letter of every word
  * Return: s
  */
@@ -23,11 +23,10 @@ char *cap_string(char *s)
 		    s[i - 1] == '(' ||
 		    s[i - 1] == ')' ||
 		    s[i - 1] == '{' ||
-		    s[i - 1] == '}' ||
-		   )
+		    s[i - 1] == '}')
 		{
 			s[i] -= 32;
 		}
-		return (s);
 	}
+	return (s);
 }
