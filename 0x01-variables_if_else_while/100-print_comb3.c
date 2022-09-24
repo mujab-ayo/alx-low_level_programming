@@ -8,24 +8,20 @@
 int main(void)
 {
 	int i, j;
-	int sep1 = '0';
-	int sep2 = '1';
 
-	i = '1';
-	while (i < 9)
+	for (i = 0; i < 9; i++)
 	{
-		j = '2';
-		while (j <= 9)
+		for (j = i + 1; j <= 9; j++)
 		{
-			putchar(sep1);
-			putchar(sep2);
-			sep1 = ',';
-			sep2 = ' ';
-			putchar(i);
-			putchar(j);
-			j++;
+			putchar(i + '0');
+			putchar(j + '0');
+			
+			if (i == 8 && j == 9)
+				continue;
+
+			putchar(',');
+			putchar(' ');
 		}
-		i++;
 	}
 	return (0);
 }
