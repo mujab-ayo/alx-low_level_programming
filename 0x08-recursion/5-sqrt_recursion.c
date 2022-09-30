@@ -6,7 +6,7 @@ int _sqrt(int n, int root);
 /**
  * _sqrt - find the square root of number input
  *
- * @num: The number to find the square root of
+ * @n: The number to find the square root of
  * @root: The root to be tested.
  * Return: If the number has a natural square root - the square root
  *	If the number does not have a natural square root - -1
