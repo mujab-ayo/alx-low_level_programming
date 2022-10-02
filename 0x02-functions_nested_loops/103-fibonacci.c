@@ -12,7 +12,7 @@ int main(void)
 
 	f1 = 0;
 	f2 = 1;
-	for (i = 1; i > 0; i++)
+	for (i = 1; i >= 0; i + 0)
 	{
 		sum = f1 + f2;
 
