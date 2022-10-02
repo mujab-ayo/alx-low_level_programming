@@ -27,6 +27,6 @@ int main(void)
 		f2 = sum;
 	}
 
-	printf("%.1f", total);
+	printf("%.0f", total);
 	return (0);
 }
