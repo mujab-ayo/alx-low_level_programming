@@ -9,11 +9,11 @@ int main(void)
 {
 	int i;
 	unsigned long int f1, f2, sum;
-	float = total;
+	float total;
 
 	f1 = 0;
 	f2 = 1;
-	for (i = 1; i > 0; i + 0)
+	for (i = 1; i > 0; i++)
 	{
 		sum = f1 + f2;
 
