@@ -8,7 +8,8 @@
 int main(void)
 {
 	int i;
-	unsigned long int f1, f2, sum, total;
+	unsigned long int f1, f2, sum;
+	float = total;
 
 	f1 = 0;
 	f2 = 1;
@@ -26,6 +27,6 @@ int main(void)
 		f2 = sum;
 	}
 
-	printf("%lu", total);
+	printf("%.1f", total);
 	return (0);
 }
