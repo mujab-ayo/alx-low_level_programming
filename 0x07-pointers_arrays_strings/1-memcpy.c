@@ -2,6 +2,7 @@
 /**
  * _memcpy - copy memory
  *
+ * Description: copy from dest to src
  * @dest: destination memory
  * @src: source memory
  * @n: number limit
